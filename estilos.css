@@ -1,4 +1,4 @@
-.sprite-sprite, .sprite-icone-check, .sprite-icone-x {
+.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
   background-image: url('../imagens/sprite-s1e035a9ecf.png');
   background-repeat: no-repeat;
 }
@@ -616,7 +616,7 @@ header .container {
 
 .plano {
   background: #fff;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -814,8 +814,8 @@ footer::before {
 }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 
