@@ -21,7 +21,6 @@ header {
       }
     }
   }
-  
   header .container {
     position: relative;
 
@@ -29,7 +28,6 @@ header {
       position: static;
     }
   }
-  
   .menu-principal {
     position: absolute;
     right: 0;
@@ -44,11 +42,9 @@ header {
       text-align: center;
       width: auto;
     }
-
     ul {
       padding-left: 0;
     }
-  
     li {
       display: inline-block;
       width: 5em;
@@ -58,7 +54,6 @@ header {
           width: auto;
         }
       }  
-  
     a {
       color: $cor-branca;
       text-decoration: none;

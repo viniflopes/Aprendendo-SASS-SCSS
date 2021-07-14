@@ -2,11 +2,9 @@
 .planos {
     background: #1e2c35;
   }
-  
   .planos h2 {
     color: $cor-branca;
   }
-  
   .plano {
     background: $cor-branca;
     width: 18em;
@@ -14,11 +12,9 @@
     margin: 1em 0 0 1.4em;
     padding-bottom: 2em;
   }
-  
   .plano:hover {
     background: #dedede;
   }
-  
   .plano h3 {
     color: $cor-branca;
     font-size: 1.8em;
@@ -28,16 +24,14 @@
     padding-top: .6em;
     margin-top: 0;
   }
-  
   .plano div {
     text-align: center;
     color: $cor-padrao;
     font-size: 2.75em;
-  }
-  
+  } 
   .itens-plano {
     padding-left: 1.2em;
-  
+
     li {
         font-size: 1em;
         list-style: none;
@@ -60,71 +54,18 @@
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    @include borda-arredondada;
+    @include border-radius(10px);
     @include box-shadow(black 0px 2px 6.65px);
     margin-left: 2em;
   }
-  
   .icone-check, .icone-x {
     background: url(../imagens/sprite.png) no-repeat;
     width: 18px;
     height: 18px;
   }
-  
   .icone-check {
     background-position: -5px -5px;
   }
-  
   .icone-x {
     background-position: -33px -5px;
   }
-  
-  
-  
-  /** Blog **/
-  .blog {
-    display: block;
-    position: relative;
-  }
-  
-  .blog::after {
-    content: "";
-    background: url(../imagens/fundo.png);
-    background-size: 25px 25px;
-    opacity: .15;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-  
-  .post-destaque,
-  .posts-antigos {
-    width: 48%;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  .post-destaque {
-    margin-right: 2em;
-  }
-  
-  .post-destaque img {
-    width: 100%;
-  }
-  
-  .posts-antigos a {
-    text-decoration: none;
-    color: black;
-    background: url(../imagens/icone-relogio.png) left center no-repeat;
-    padding-left: 2.5em;
-    height: 1.7em;
-    display: block;
-  }
-  
-  .posts-antigos a:hover {
-    text-decoration: underline;
-  }
-  

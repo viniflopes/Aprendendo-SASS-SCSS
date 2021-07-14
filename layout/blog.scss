@@ -3,7 +3,6 @@
     display: block;
     position: relative;
   }
-  
   .blog::after {
     content: "";
     background: url(../imagens/fundo.png);
@@ -16,7 +15,6 @@
     position: absolute;
     z-index: -1;
   }
-  
   .post-destaque,
   .posts-antigos {
     width: 48%;
@@ -27,15 +25,12 @@
       width: auto;
     }
   }
-  
   .post-destaque {
     margin-right: 2em;
   }
-  
   .post-destaque img {
     width: 100%;
   }
-  
   .posts-antigos a {
     text-decoration: none;
     color: black;
@@ -44,7 +39,6 @@
     height: 1.7em;
     display: block;
   }
-  
   .posts-antigos a:hover {
     text-decoration: underline;
   }

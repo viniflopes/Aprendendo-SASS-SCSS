@@ -539,6 +539,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
+  -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   -moz-box-shadow: black 0px 2px 6.65px;
@@ -660,8 +661,9 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   -moz-box-shadow: black 0px 2px 6.65px;
   -webkit-box-shadow: black 0px 2px 6.65px;
   box-shadow: black 0px 2px 6.65px;
@@ -680,53 +682,6 @@ header .container {
 
 .icone-x {
   background-position: -33px -5px;
-}
-
-/** Blog **/
-.blog {
-  display: block;
-  position: relative;
-}
-
-.blog::after {
-  content: "";
-  background: url(../imagens/fundo.png);
-  background-size: 25px 25px;
-  opacity: .15;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.post-destaque,
-.posts-antigos {
-  width: 48%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.post-destaque {
-  margin-right: 2em;
-}
-
-.post-destaque img {
-  width: 100%;
-}
-
-.posts-antigos a {
-  text-decoration: none;
-  color: black;
-  background: url(../imagens/icone-relogio.png) left center no-repeat;
-  padding-left: 2.5em;
-  height: 1.7em;
-  display: block;
-}
-
-.posts-antigos a:hover {
-  text-decoration: underline;
 }
 
 /** Blog **/
@@ -803,8 +758,9 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   border: 2px solid #ccc;
 }
 
@@ -816,8 +772,9 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   -moz-box-shadow: black 0px 2px 6.65px;
   -webkit-box-shadow: black 0px 2px 6.65px;
   box-shadow: black 0px 2px 6.65px;
